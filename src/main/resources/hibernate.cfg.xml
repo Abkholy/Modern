@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+        <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+
+    <property name="hibernate.connection.url">jdbc:sqlserver://127.0.0.1:1433;database=modern</property>
+    <property name="hibernate.connection.username">abdoSA</property>
+    <property name="hibernate.connection.password">sa@123</property>
+
+    <property name="hibernate.id.new_generator_mappings">true</property>
+    <property name="show_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+
+    <property name="hibernate.c3p0.min_size">1</property>
+    <property name="hibernate.c3p0.max_size">500</property>
+    <property name="hibernate.c3p0.timeout">300</property>
+    <property name="hibernate.c3p0.max_statements">1000</property>
+
+    <!--<property name="hibernate.transaction.auto_close_session">true</property>-->
+
+    <mapping class="modern.io.entity.collage"></mapping>
+    <mapping class="modern.io.entity.subject"></mapping>
+    <mapping class="modern.io.entity.student"></mapping>
+    <mapping class="modern.io.entity.timeTable"></mapping>
+    <mapping class="modern.io.entity.attTable" ></mapping>
+    <mapping class="modern.io.entity.attTableLines"></mapping>
+    <mapping class="modern.io.entity.location"></mapping>
+    <mapping class="modern.io.entity.locationType"></mapping>
+    <mapping class="modern.io.entity.users"></mapping>
+    <mapping class="modern.io.entity.registration"></mapping>
+    <mapping class="modern.io.entity.registrationLines"></mapping>
+    <mapping class="modern.io.entity.semester"></mapping>
+
+  </session-factory>
+</hibernate-configuration>

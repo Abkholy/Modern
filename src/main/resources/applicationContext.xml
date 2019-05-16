@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="usersDAOImpl" class="modern.io.dao.impl.usersDAOImpl" />
+
+    <bean id="usersService" class="modern.service.impl.usersServiceImpl">
+        <constructor-arg ref="usersDAOImpl"/>
+    </bean>
+
+    <bean id="authService" class="modern.service.impl.authServiceImpl" >
+        <constructor-arg ref="usersService"/>
+    </bean>
+
+    <bean id="collageDAOIMPL" class="modern.io.dao.impl.collageDAOIMPL" />
+
+    <bean id="collageService" class="modern.service.impl.collageServiceImpl">
+        <constructor-arg ref="collageDAOIMPL"/>
+    </bean>
+
+    <bean id="locationDAOImpl" class="modern.io.dao.impl.locationDAOImpl" />
+
+    <bean id="locationService" class="modern.service.impl.locationServiceImpl">
+        <constructor-arg ref="locationDAOImpl"/>
+    </bean>
+    <bean id="locationTypeDAO" class="modern.io.dao.impl.locationTypeDAOImpl" />
+
+    <bean id="locationTypeService" class="modern.service.impl.locationTypeServiceImpl">
+        <constructor-arg ref="locationTypeDAO"/>
+    </bean>
+    <bean id="registrationLinesDAOImpl" class="modern.io.dao.impl.registrationLinesDAOImpl" />
+
+    <bean id="registrationLinesService" class="modern.service.impl.registrationLinesServiceImpl">
+        <constructor-arg ref="registrationLinesDAOImpl"/>
+    </bean>
+    <bean id="registrationDAOImpl" class="modern.io.dao.impl.registrationDAOImpl" />
+
+    <bean id="registrationService" class="modern.service.impl.registrationServiceImpl">
+        <constructor-arg ref="registrationDAOImpl"/>
+        <constructor-arg ref="semesterService"/>
+    </bean>
+
+    <bean id="studentDAOImpl" class="modern.io.dao.impl.studentDAOImpl" />
+
+    <bean id="studentService" class="modern.service.impl.studentServiceImpl">
+        <constructor-arg ref="studentDAOImpl"/>
+        <constructor-arg ref="usersService"/>
+    </bean>
+
+    <bean id="subjectDAOImpl" class="modern.io.dao.impl.subjectDAOImpl" />
+
+    <bean id="subjectService" class="modern.service.impl.subjectServiceImpl">
+        <constructor-arg ref="subjectDAOImpl"/>
+    </bean>
+
+    <bean id="timeTableDAOImpl" class="modern.io.dao.impl.timeTableDAOImpl" />
+
+    <bean id="timeTableService" class="modern.service.impl.timeTableServiceImpl">
+        <constructor-arg ref="timeTableDAOImpl"/>
+        <constructor-arg ref="attTableService"/>
+        <constructor-arg ref="semesterService"/>
+
+    </bean>
+    <bean id="attTableDAOImpl" class="modern.io.dao.impl.attTableDAOImpl" />
+
+    <bean id="attTableService" class="modern.service.impl.attTableServiceImpl">
+        <constructor-arg ref="attTableDAOImpl"/>
+    </bean>
+
+    <bean id="attTableLinesDAOImpl" class="modern.io.dao.impl.attTableLinesDAOImpl" />
+
+    <bean id="attTableLinesService" class="modern.service.impl.attTableLinesServiceImpl">
+        <constructor-arg ref="attTableLinesDAOImpl"/>
+        <constructor-arg ref="studentService"/>
+        <constructor-arg ref="locationService"/>
+        <constructor-arg ref="registrationService"/>
+        <constructor-arg ref="attTableService"/>
+    </bean>
+
+    <bean id="semesterDAO" class="modern.io.dao.impl.semesterDAOImpl" />
+
+    <bean id="semesterService" class="modern.service.impl.semesterServiceImpl">
+        <constructor-arg ref="semesterDAO"/>
+    </bean>
+
+</beans>

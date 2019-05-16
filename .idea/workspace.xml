@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="basar:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/modern/ui/response/locationTypeResponse.java" line="2" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/collageDAOIMPL.java" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b8a0598-e093-4556-849e-52bd8ef6e3d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/semesterDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/semesterDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/semester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/semesterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/service/semesterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/semesterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/authEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/generatorEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/scannerEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/semesterEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/generatorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/semesterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/semesterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84b29103-12b6-4f4d-907d-b38181f1256a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84b29103-12b6-4f4d-907d-b38181f1256a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84b29103-12b6-4f4d-907d-b38181f1256a/storage_v2/_src_/database/modern.H2tLwA/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84b29103-12b6-4f4d-907d-b38181f1256a/storage_v2/_src_/database/modern.H2tLwA/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/AuthenticationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/AuthenticationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/AuthenticationExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/AuthenticationExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotCreateRecordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotCreateRecordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotCreateRecordExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotCreateRecordExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotDeleteRecordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotDeleteRecordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotDeleteRecordExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotDeleteRecordExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotUpdateRecordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotUpdateRecordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotUpdateRecordExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/CouldNotUpdateRecordExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/DateWrongException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/DateWrongException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/EmailVerificationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/EmailVerificationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/EmailVerificationExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/EmailVerificationExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/GenericExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/GenericExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/IllegalMACException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/IllegalMACException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/IllegalMACExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/IllegalMACExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/MissingRequiredFieldException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/MissingRequiredFieldException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/MissingRequiredFieldExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/MissingRequiredFieldExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/NoRecordFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/NoRecordFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/NoRecordFoundExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/NoRecordFoundExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/exceptions/exceededLimitException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/exceptions/exceededLimitException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/filters/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/filters/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/filters/CORSResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/filters/CORSResponseFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/attTableDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/attTableDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/attTableLinesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/attTableLinesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/attTableDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/attTableDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/attTableLinesDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/attTableLinesDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/collageDAOIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/collageDAOIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/lcationDAOIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/locationDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/locationTypeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/locationTypeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/registrationDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/registrationDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/registrationLinesDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/registrationLinesDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/studentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/studentDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/subjectDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/subjectDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/timeTableDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/timeTableDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/usersDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/usersDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/locationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/locationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/registrationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/registrationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/dao/studentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/dao/studentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/attTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/attTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/attTableLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/attTableLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/collage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/collage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/locationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/locationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/registrationLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/registrationLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/timeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/timeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/io/entity/users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/io/entity/users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/attTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/attTableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/authService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/authService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/attTableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/attTableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/authServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/authServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/collageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/collageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/locationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/locationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/locationTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/locationTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/registrationLinesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/registrationLinesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/registrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/registrationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/studentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/studentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/subjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/subjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/timeTableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/timeTableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/impl/usersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/impl/usersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/locationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/locationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/registrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/registrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/studentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/studentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/service/timeTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/service/timeTableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/attTableDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/attTableDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/attTableLinesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/attTableLinesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/collageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/collageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/locationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/locationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/locationTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/locationTypeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/registrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/registrationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/registrationLinesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/registrationLinesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/studentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/studentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/subjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/subjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/timeTableDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/timeTableDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/shared/dto/usersDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/shared/dto/usersDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableLinesEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableLinesEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/collageEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/collageEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/locationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/locationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/locationTypeEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/locationTypeEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/registrationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/registrationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/registrationLinesEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/registrationLinesEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/studentEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/studentEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/subjectEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/subjectEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/timeTableEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/timeTableEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/usersEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/usersEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/request/attTableLinesRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/attTableLinesRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/request/attTableRquest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/attTableRquest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/request/collageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/collageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/request/registrationLinesRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/registrationLinesRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/request/registrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/registrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/request/studentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/studentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/request/timeTableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/request/timeTableRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/attTableResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/attTableResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/locationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/locationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/registrationLinesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/registrationLinesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/registrationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/registrationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/studentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/studentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/sys/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/sys/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/sys/ErrorMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/sys/ErrorMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/timeTableResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/timeTableResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/ui/response/userResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/ui/response/userResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/utils/EntityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/utils/EntityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modern/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/META-INF/basar.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/exceptions/IllegalMACExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/exceptions/IllegalMACExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/exceptions/NoRecordFoundExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/exceptions/NoRecordFoundExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/dao/collageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/dao/collageDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/dao/impl/collageDAOIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/dao/impl/collageDAOIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/dao/impl/genericDAOIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/attTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/attTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/attTableLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/attTableLines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/collage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/collage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/locationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/locationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/timeTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/timeTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/io/entity/users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/service/collageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/service/collageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/service/impl/collageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/service/impl/collageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/attTableDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/attTableDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/attTableLinesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/attTableLinesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/registrationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/registrationDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/studentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/studentDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/timeTableDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/shared/dto/timeTableDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/entrypoint/collageEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/entrypoint/collageEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/attTableLinesRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/attTableLinesRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/attTableRquest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/attTableRquest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/registrationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/registrationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/studentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/studentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/timeTableRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/request/timeTableRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/attTableResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/attTableResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/registrationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/registrationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/studentResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/studentResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/timeTableResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/timeTableResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/userResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Modern/WEB-INF/classes/modern/ui/response/userResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/basar.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/exceptions/IllegalMACExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/exceptions/IllegalMACExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/exceptions/NoRecordFoundExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/exceptions/NoRecordFoundExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/dao/collageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/dao/collageDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/dao/impl/collageDAOIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/dao/impl/collageDAOIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/dao/impl/genericDAOIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/attTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/attTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/attTableLines.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/attTableLines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/collage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/collage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/locationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/locationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/timeTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/timeTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/io/entity/users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/io/entity/users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/service/collageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/service/collageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/service/impl/collageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/service/impl/collageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/shared/dto/attTableDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/shared/dto/attTableDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/shared/dto/attTableLinesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/shared/dto/attTableLinesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/shared/dto/registrationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/shared/dto/registrationDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/shared/dto/studentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/shared/dto/studentDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/shared/dto/timeTableDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/shared/dto/timeTableDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/entrypoint/collageEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/entrypoint/collageEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/request/attTableLinesRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/request/attTableLinesRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/request/attTableRquest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/request/attTableRquest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/request/registrationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/request/registrationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/request/studentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/request/studentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/request/timeTableRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/request/timeTableRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/response/attTableResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/response/attTableResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/response/registrationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/response/registrationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/response/studentResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/response/studentResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/response/timeTableResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/response/timeTableResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modern/ui/response/userResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modern/ui/response/userResponse.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/basar$Tomcat_9_0_16.ic" NAME="Tomcat 9.0.16 Coverage Results" MODIFIED="1556278881479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="modern@197.51.194.42" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="modern@197.51.194.42" type="feb32156:DbDataSourceImpl" />
+        <item name="modern: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="modern@197.51.194.42" type="feb32156:DbDataSourceImpl" />
+        <item name="modern: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="basar" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/locationTypeDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="41" column="74" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/registrationDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="42" column="73" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/semesterDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="57" column="50" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/studentDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="81" column="54" lean-forward="true" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/collageEntryPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="131" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/app.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/utils/EntityUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="69" column="74" selection-start-line="69" selection-start-column="66" selection-end-line="69" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/utils/HibernateUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/service/collageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modern/service/impl/collageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="17" selection-start-line="16" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hiber</find>
+      <find>loca</find>
+      <find>user</find>
+      <find>grou</find>
+      <find>orde</find>
+      <find>gro</find>
+      <find>group</find>
+      <find>save</find>
+      <find>datetim</find>
+      <find>getlines</find>
+      <find>getl</find>
+      <find>cau</find>
+      <find>cors</find>
+      <find>student</find>
+      <find>getsingl</find>
+      <find>getsing</find>
+      <find>from</find>
+      <find>path</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\projects\basar\src\main\java\modern\io\entity</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/impl/semesterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/impl/registrationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/dao/attTableDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/attTableDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/attTableService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/impl/attTableServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/request/registrationRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/response/registrationResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/shared/dto/registrationDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/request/generatorRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/dao/studentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/authEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/usersEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/studentEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/semesterEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/scannerEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/impl/timeTableServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/impl/usersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/usersDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/filters/AuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/studentDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/subjectEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/registrationLinesEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/locationTypeEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/locationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/collageEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableLinesEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/registrationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/timeTableEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/response/userResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/attTableLines.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/timeTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/registration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/locationType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/collage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/attTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/impl/studentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/exceptions/IllegalMACExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/exceptions/NoRecordFoundExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/service/studentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/generatorEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/entity/users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/io/dao/impl/collageDAOIMPL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modern/utils/HibernateUtils.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="basar" type="58d84e3e:PackageViewProjectNode" />
+              <item name="basar" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="basar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="modern" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="modern" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="modern" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="modern" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entrypoint" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="basar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="basar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="modern" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557927394673" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="modern.ui.entrypoint" />
+      <recent name="modern.filters" />
+      <recent name="modern.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\basar\src\main\resources" />
+      <recent name="C:\projects\basar\src\main\java\modern\shared\dto" />
+      <recent name="C:\projects\basar\src\main\java\modern\utils" />
+      <recent name="C:\projects\basar\src\main\java\modern\filters" />
+      <recent name="C:\projects\basar\src\main\java\modern\annotations" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/basar/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="basar:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/basar" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_basar_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64829" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="basar:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b8a0598-e093-4556-849e-52bd8ef6e3d8" name="Default Changelist" comment="" />
+      <created>1556021148878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556021148878</updated>
+      <workItem from="1556021159253" duration="75598000" />
+      <workItem from="1556285279659" duration="10842000" />
+      <workItem from="1556304441353" duration="11033000" />
+      <workItem from="1556394767384" duration="1033000" />
+      <workItem from="1556398164459" duration="16000" />
+      <workItem from="1556465814713" duration="5457000" />
+      <workItem from="1556490601228" duration="10000" />
+      <workItem from="1556556415929" duration="111000" />
+      <workItem from="1556794802350" duration="2501000" />
+      <workItem from="1556802172772" duration="31000" />
+      <workItem from="1556809656759" duration="3861000" />
+      <workItem from="1556881239958" duration="6619000" />
+      <workItem from="1556965432877" duration="3678000" />
+      <workItem from="1556993545888" duration="1847000" />
+      <workItem from="1557083524450" duration="6491000" />
+      <workItem from="1557180732553" duration="4000" />
+      <workItem from="1557224812220" duration="2156000" />
+      <workItem from="1557767417573" duration="5529000" />
+      <workItem from="1557951029920" duration="3119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139936000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Persistence" order="0" sideWeight="0.50402576" side_tool="true" weight="0.27155825" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.50080514" side_tool="true" weight="0.24810892" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49597424" visible="true" weight="0.27155825" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="1" weight="0.4299517" />
+      <window_info anchor="bottom" id="Database Console" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Hibernate Console" order="3" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.32850242" />
+      <window_info anchor="bottom" id="Message" order="12" />
+      <window_info anchor="bottom" id="Find" order="13" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.32850242" />
+      <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="17" weight="0.32850242" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Material Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Persistence" order="0" sideWeight="0.49919486" side_tool="true" weight="0.24281392" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.49919486" side_tool="true" weight="0.24962178" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.50080514" visible="true" weight="0.24281392" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Hibernate Console" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32850242" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Message" order="11" />
+      <window_info anchor="bottom" id="Find" order="12" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="13" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.35909823" />
+      <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="17" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Material Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/usersEntryPoint.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/usersServiceImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/usersEntryPoint.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/collageEntryPoint.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/locationTypeEntryPoint.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/studentEntryPoint.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/registrationLinesEntryPoint.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/registrationLinesDAOImpl.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/registrationLinesServiceImpl.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/attTableDAOImpl.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableEntryPoint.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/attTableDAOImpl.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/attTableEntryPoint.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/scannerEntryPoint.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/timeTableServiceImpl.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/timeTableEntryPoint.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/attTableLinesServiceImpl.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/generatorEntryPoint.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/service/impl/studentServiceImpl.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/authEntryPoint.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/generatorEntryPoint.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/generatorEntryPoint.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="requestObject" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>MAszFfQyM2dxYVpXhkJnQ2Fx7WTN7F</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>kjgkghkghkghjk</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/timeTableEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/response/userResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/response/attTableLinesResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/shared/dto/attTableLinesDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/request/attTableLinesRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/filters/AuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af5bb768-60ab-4f20-92fd-03794b4b0db4/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/shared/dto/studentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/timeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/semester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/registrationLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/locationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/attTableLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.27/jaxrs-ri-2.27-sources.jar!/org/glassfish/jersey/server/ServerRuntime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.27/jaxrs-ri-2.27-sources.jar!/org/glassfish/jersey/internal/Errors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="275" selection-start-line="275" selection-end-line="275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.27/jaxrs-ri-2.27-sources.jar!/org/glassfish/jersey/process/internal/RequestScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.27/jaxrs-ri-2.27-sources.jar!/org/glassfish/jersey/server/model/ResourceMethodInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="494" selection-start-line="494" selection-end-line="494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/exceptions/AuthenticationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/generatorEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.27/jaxrs-ri-2.27-sources.jar!/org/glassfish/jersey/server/model/internal/AbstractJavaResourceMethodDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/service/studentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/b5eb8f88/hibernate.cfg.xml/basar/hibernate/Hibernate/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/b5eb8f88/hibernate.cfg.xml/basar/hibernate/Hibernate/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="638.2355769230769" y="1152.0">attTable#file://C:/projects/basar/src/main/java/modern/io/entity/attTable.java</node>
+            <node x="240.96153846153857" y="0.0">location#file://C:/projects/basar/src/main/java/modern/io/entity/location.java</node>
+            <node x="308.00000000000006" y="422.0">users#file://C:/projects/basar/src/main/java/modern/io/entity/users.java</node>
+            <node x="264.06250000000006" y="1141.0">registration#file://C:/projects/basar/src/main/java/modern/io/entity/registration.java</node>
+            <node x="496.12500000000006" y="964.0">attTableLines#file://C:/projects/basar/src/main/java/modern/io/entity/attTableLines.java</node>
+            <node x="145.00000000000006" y="466.0">semester#file://C:/projects/basar/src/main/java/modern/io/entity/semester.java</node>
+            <node x="403.58653846153857" y="189.0">collage#file://C:/projects/basar/src/main/java/modern/io/entity/collage.java</node>
+            <node x="136.57051282051282" y="731.0">timeTable#file://C:/projects/basar/src/main/java/modern/io/entity/timeTable.java</node>
+            <node x="530.0" y="433.0">subject#file://C:/projects/basar/src/main/java/modern/io/entity/subject.java</node>
+            <node x="720.125" y="687.0">student#file://C:/projects/basar/src/main/java/modern/io/entity/student.java</node>
+            <node x="0.0" y="233.0">locationType#file://C:/projects/basar/src/main/java/modern/io/entity/locationType.java</node>
+            <node x="274.5785256410258" y="986.0">registrationLines#file://C:/projects/basar/src/main/java/modern/io/entity/registrationLines.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="registration#file://C:/projects/basar/src/main/java/modern/io/entity/registration.java" target="registrationLines#file://C:/projects/basar/src/main/java/modern/io/entity/registrationLines.java">
+              <point x="0.0" y="-91.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="attTable#file://C:/projects/basar/src/main/java/modern/io/entity/attTable.java" target="subject#file://C:/projects/basar/src/main/java/modern/io/entity/subject.java">
+              <point x="0.0" y="-80.5" />
+              <point x="715.7355769230769" y="1101.0" />
+              <point x="709.625" y="1101.0" />
+              <point x="709.625" y="667.0" />
+              <point x="695.375" y="667.0" />
+              <point x="70.875" y="91.5" />
+            </edge>
+            <edge source="registrationLines#file://C:/projects/basar/src/main/java/modern/io/entity/registrationLines.java" target="timeTable#file://C:/projects/basar/src/main/java/modern/io/entity/timeTable.java">
+              <point x="-30.0" y="-36.5" />
+              <point x="304.5785256410258" y="944.0" />
+              <point x="184.57051282051282" y="944.0" />
+              <point x="-48.0" y="69.5" />
+            </edge>
+            <edge source="collage#file://C:/projects/basar/src/main/java/modern/io/entity/collage.java" target="location#file://C:/projects/basar/src/main/java/modern/io/entity/location.java">
+              <point x="0.0" y="-91.5" />
+              <point x="490.58653846153857" y="169.0" />
+              <point x="367.83653846153857" y="169.0" />
+              <point x="25.375" y="69.5" />
+            </edge>
+            <edge source="registrationLines#file://C:/projects/basar/src/main/java/modern/io/entity/registrationLines.java" target="subject#file://C:/projects/basar/src/main/java/modern/io/entity/subject.java">
+              <point x="30.0" y="-36.5" />
+              <point x="364.5785256410258" y="944.0" />
+              <point x="516.375" y="944.0" />
+              <point x="516.375" y="657.0" />
+              <point x="600.875" y="657.0" />
+              <point x="-23.625" y="91.5" />
+            </edge>
+            <edge source="student#file://C:/projects/basar/src/main/java/modern/io/entity/student.java" target="collage#file://C:/projects/basar/src/main/java/modern/io/entity/collage.java">
+              <point x="0.0" y="-113.5" />
+              <point x="807.125" y="392.0" />
+              <point x="555.8365384615386" y="392.0" />
+              <point x="65.25" y="91.5" />
+            </edge>
+            <edge source="subject#file://C:/projects/basar/src/main/java/modern/io/entity/subject.java" target="collage#file://C:/projects/basar/src/main/java/modern/io/entity/collage.java">
+              <point x="0.0" y="-91.5" />
+              <point x="624.5" y="402.0" />
+              <point x="512.3365384615386" y="402.0" />
+              <point x="21.75" y="91.5" />
+            </edge>
+            <edge source="attTableLines#file://C:/projects/basar/src/main/java/modern/io/entity/attTableLines.java" target="timeTable#file://C:/projects/basar/src/main/java/modern/io/entity/timeTable.java">
+              <point x="-67.66666666666669" y="-58.5" />
+              <point x="529.9583333333334" y="934.0" />
+              <point x="280.5705128205128" y="934.0" />
+              <point x="48.0" y="69.5" />
+            </edge>
+            <edge source="registration#file://C:/projects/basar/src/main/java/modern/io/entity/registration.java" target="semester#file://C:/projects/basar/src/main/java/modern/io/entity/semester.java">
+              <point x="-47.66666666666663" y="-91.5" />
+              <point x="287.8958333333334" y="1121.0" />
+              <point x="126.07051282051282" y="1121.0" />
+              <point x="126.07051282051282" y="667.0" />
+              <point x="180.75000000000006" y="667.0" />
+              <point x="-35.75" y="58.5" />
+            </edge>
+            <edge source="timeTable#file://C:/projects/basar/src/main/java/modern/io/entity/timeTable.java" target="location#file://C:/projects/basar/src/main/java/modern/io/entity/location.java">
+              <point x="-64.0" y="-69.5" />
+              <point x="168.57051282051282" y="657.0" />
+              <point x="134.50000000000006" y="657.0" />
+              <point x="134.50000000000006" y="169.0" />
+              <point x="317.08653846153857" y="169.0" />
+              <point x="-25.375" y="69.5" />
+            </edge>
+            <edge source="attTable#file://C:/projects/basar/src/main/java/modern/io/entity/attTable.java" target="attTableLines#file://C:/projects/basar/src/main/java/modern/io/entity/attTableLines.java">
+              <point x="-51.66666666666666" y="-80.5" />
+              <point x="664.0689102564103" y="1101.0" />
+              <point x="597.625" y="1101.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="users#file://C:/projects/basar/src/main/java/modern/io/entity/users.java" target="collage#file://C:/projects/basar/src/main/java/modern/io/entity/collage.java">
+              <point x="0.0" y="-102.5" />
+              <point x="409.00000000000006" y="402.0" />
+              <point x="468.83653846153857" y="402.0" />
+              <point x="-21.75" y="91.5" />
+            </edge>
+            <edge source="timeTable#file://C:/projects/basar/src/main/java/modern/io/entity/timeTable.java" target="semester#file://C:/projects/basar/src/main/java/modern/io/entity/semester.java">
+              <point x="0.0" y="-69.5" />
+              <point x="232.57051282051282" y="667.0" />
+              <point x="252.25000000000006" y="667.0" />
+              <point x="35.75" y="58.5" />
+            </edge>
+            <edge source="attTableLines#file://C:/projects/basar/src/main/java/modern/io/entity/attTableLines.java" target="student#file://C:/projects/basar/src/main/java/modern/io/entity/student.java">
+              <point x="67.66666666666669" y="-58.5" />
+              <point x="665.2916666666667" y="944.0" />
+              <point x="763.625" y="944.0" />
+              <point x="-43.5" y="113.5" />
+            </edge>
+            <edge source="locationType#file://C:/projects/basar/src/main/java/modern/io/entity/locationType.java" target="location#file://C:/projects/basar/src/main/java/modern/io/entity/location.java">
+              <point x="0.0" y="-47.5" />
+              <point x="62.0" y="159.0" />
+              <point x="266.33653846153857" y="159.0" />
+              <point x="-76.125" y="69.5" />
+            </edge>
+            <edge source="attTableLines#file://C:/projects/basar/src/main/java/modern/io/entity/attTableLines.java" target="subject#file://C:/projects/basar/src/main/java/modern/io/entity/subject.java">
+              <point x="0.0" y="-58.5" />
+              <point x="597.625" y="667.0" />
+              <point x="648.125" y="667.0" />
+              <point x="23.625" y="91.5" />
+            </edge>
+            <edge source="attTable#file://C:/projects/basar/src/main/java/modern/io/entity/attTable.java" target="location#file://C:/projects/basar/src/main/java/modern/io/entity/location.java">
+              <point x="51.66666666666666" y="-80.5" />
+              <point x="767.4022435897436" y="1121.0" />
+              <point x="940.9022435897436" y="1121.0" />
+              <point x="940.9022435897436" y="159.0" />
+              <point x="418.58653846153857" y="159.0" />
+              <point x="76.125" y="69.5" />
+            </edge>
+            <edge source="semester#file://C:/projects/basar/src/main/java/modern/io/entity/semester.java" target="collage#file://C:/projects/basar/src/main/java/modern/io/entity/collage.java">
+              <point x="0.0" y="-58.5" />
+              <point x="216.50000000000006" y="392.0" />
+              <point x="425.33653846153857" y="392.0" />
+              <point x="-65.25" y="91.5" />
+            </edge>
+            <edge source="timeTable#file://C:/projects/basar/src/main/java/modern/io/entity/timeTable.java" target="subject#file://C:/projects/basar/src/main/java/modern/io/entity/subject.java">
+              <point x="64.0" y="-69.5" />
+              <point x="296.5705128205128" y="647.0" />
+              <point x="553.625" y="647.0" />
+              <point x="-70.875" y="91.5" />
+            </edge>
+            <edge source="registration#file://C:/projects/basar/src/main/java/modern/io/entity/registration.java" target="student#file://C:/projects/basar/src/main/java/modern/io/entity/student.java">
+              <point x="47.666666666666686" y="-91.5" />
+              <point x="383.22916666666674" y="1111.0" />
+              <point x="850.625" y="1111.0" />
+              <point x="43.5" y="113.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0241071428571427" x="243.0" y="955.0" />
+          <SelectedNodes>
+            <node>subject#file://C:/projects/basar/src/main/java/modern/io/entity/subject.java</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/attTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/service/impl/studentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/exceptions/IllegalMACException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/exceptions/IllegalMACExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/exceptions/MissingRequiredFieldExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/exceptions/NoRecordFoundExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/exceptions/AuthenticationExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.27/jaxrs-ri-2.27-sources.jar!/org/glassfish/jersey/server/model/internal/ResourceMethodInvocationHandlerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="75" column="87" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/authEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="151" selection-end-column="10" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/entity/collage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="88" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/collageDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/collageDAOIMPL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="120" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/locationTypeDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" column="74" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/registrationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="42" column="73" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/semesterDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="57" column="50" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/service/collageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/service/impl/collageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/io/dao/impl/studentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="81" column="54" lean-forward="true" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/ui/entrypoint/collageEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="131" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/utils/EntityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="69" column="74" selection-start-line="69" selection-start-column="66" selection-end-line="69" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modern/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>basar:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>basar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
